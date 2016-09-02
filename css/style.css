@@ -102,7 +102,6 @@ header{
 	width: 90%;
 	display: inline-block;
 	padding: 0  20px;
-	background-color: pink;
 }
 
 .enlaces-medio a:nth-child(3){
@@ -147,15 +146,27 @@ hr{
 	width: 15px;
 }
 
-footer {
+.footer {
 	width: 100%;
 	position: relative;
 	top: 1150px;
-	background-color: grey;
+	background-color: #585858;
 	color: white;
 	text-align: center;
 	line-height: 50px;
 }
 
-
+.footer p:first-child {
+	text-align: left;
+}
 	
+.footer a {
+	text-decoration: none;
+	color: #CCCCCC;
+	margin-right: 10px;
+}
+
+.footer p:last-child {
+	font-size: 13px;
+	color: #99958B;
+}
